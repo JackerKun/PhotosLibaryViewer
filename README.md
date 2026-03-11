@@ -260,3 +260,7 @@ PhotosLibraryViewer/
 - **HEVC 视频**：已启用 `PlatformHEVCDecoderSupport`，支持 H.265 编码的 iPhone 视频（包含 moov-at-end 大文件）。
 - **跨平台打开图库**：在 Windows 上打开 macOS 生成的图库时，缩略图路径跨平台可用，但原图为 macOS 绝对路径，建议将整个 `.photoslibrary` 文件夹复制到目标机器。
 - **数据库内存占用**：sql.js 会将整个数据库读入内存，大型图库（>500MB 数据库）初次打开需要数秒。
+
+## 安装包下载
+
+链接: https://pan.baidu.com/s/5SH-Chw9ohxG813krD0rGVA?
