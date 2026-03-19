@@ -28,7 +28,7 @@ jobs:
         run: npm ci
 
       - name: Build macOS app
-        run: npm run build:mac
+        run: npx vite build && npx electron-builder --mac --publish=never
 
       - name: Upload macOS artifact
         uses: actions/upload-artifact@v4
@@ -53,7 +53,7 @@ jobs:
         run: npm ci
 
       - name: Build Windows app
-        run: npm run build:win
+        run: npx vite build && npx electron-builder --win --publish=never
 
       - name: Upload Windows artifact
         uses: actions/upload-artifact@v4
